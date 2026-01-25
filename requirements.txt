@@ -1,0 +1,53 @@
+# PDF to Markdown Conversion Tools
+# =================================
+
+# MarkItDown - Microsoft's document converter
+markitdown[all]==0.1.4
+
+# PyMuPDF4LLM - Fast PDF to Markdown (Recommended for RAG)
+pymupdf==1.26.7
+pymupdf4llm==0.2.9
+
+# MinerU - Advanced PDF extraction with layout analysis
+mineru==2.7.2
+
+# =====================================
+# MinerU Dependencies (Apple Silicon)
+# =====================================
+# Note: MinerU requires many dependencies for ML models
+# These are pinned versions that work together
+
+# PyTorch (pinned for MPS compatibility)
+torch==2.5.1
+torchvision==0.20.1
+
+# ML/Vision models
+ultralytics==8.4.7
+doclayout-yolo==0.0.4
+transformers==4.57.6
+tokenizers==0.22.2
+
+# OCR and document processing
+omegaconf==2.3.0
+shapely==2.1.2
+pyclipper==1.4.0
+dill==0.4.1
+ftfy==6.3.1
+
+# Image processing
+opencv-python==4.13.0.90
+scikit-image==0.26.0
+albumentations==2.0.8
+pillow==12.1.0
+
+# Data processing
+numpy==2.4.1
+pandas==3.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+
+# Utilities
+tqdm==4.67.1
+pyyaml==6.0.3
+tabulate==0.9.0
+huggingface-hub==0.36.0
